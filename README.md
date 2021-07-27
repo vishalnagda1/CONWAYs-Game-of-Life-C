@@ -10,20 +10,28 @@ Depending on the initial conditions, the cells form various patterns throughout 
 
 
 
-###The Rules
+### The Rules
 
 
-####For a space that is 'populated':
+#### For a space that is 'populated':
 
  - Each cell with one or no neighbors dies, as if by solitude.
  - Each cell with four or more neighbors dies, as if by overpopulation.
  - Each cell with two or three neighbors survives.
 
 
-####For a space that is 'empty' or 'unpopulated'
+#### For a space that is 'empty' or 'unpopulated'
 
  - Each cell with three neighbors becomes populated.
 
 
 
-#####Document Reference : [Game Of Life](http://www.bitstorm.org/gameoflife/)
+##### Document Reference : [Game Of Life](http://www.bitstorm.org/gameoflife/)
+
+#### Contribution
+
+1. Fork it ( https://github.com/vishalnagda1/CONWAYs-Game-of-Life-C/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new pull request.
